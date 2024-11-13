@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Form Validation"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="20.593">
+    <properties></properties>
+
+
+    <testcase
+            name="CIformValidationInsuredPerPart"
+            time="0.267"
+            classname="CareInsurance.test.FormValidationTest">
+    </testcase>
+    <testcase
+            name="CIformValidationInsuredCommPart"
+            time="0.277"
+            classname="CareInsurance.test.FormValidationTest">
+    </testcase>
+    <testcase
+            name="CImain"
+            time="17.268"
+            classname="CareInsurance.test.FormValidationTest">
+    </testcase>
+    <testcase
+            name="CIformValidationProposerCommPart"
+            time="0.274"
+            classname="CareInsurance.test.FormValidationTest">
+    </testcase>
+    <testcase
+            name="CIformValidationInsuredFirstPart"
+            time="0.878"
+            classname="CareInsurance.test.FormValidationTest">
+    </testcase>
+    <testcase
+            name="CIformValidationProposerFirstPart"
+            time="0.781"
+            classname="CareInsurance.test.FormValidationTest">
+    </testcase>
+    <testcase
+            name="CIformValidationProposerPerPart"
+            time="0.223"
+            classname="CareInsurance.test.FormValidationTest">
+    </testcase>
+    <testcase
+            name="CIformValidationFirstPart"
+            time="0.625"
+            classname="CareInsurance.test.FormValidationTest">
+    </testcase>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Family floater with random number of members"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="127.611">
+    <properties></properties>
+
+
+    <testcase
+            name="familyfloaterInsurance"
+            time="111.006"
+            classname="CareInsurance.test.FamilyFloaterTest">
+    </testcase>
+    <testcase
+            name="CImain"
+            time="16.605"
+            classname="CareInsurance.test.FamilyFloaterTest">
+    </testcase>
+</testsuite>

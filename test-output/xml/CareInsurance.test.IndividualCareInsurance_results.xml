@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Individual Care Insurance with same permanent and communication address"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="66.073">
+    <properties></properties>
+
+
+    <testcase
+            name="enterProposerDetail"
+            time="2.185"
+            classname="CareInsurance.test.IndividualCareInsuranceTest">
+    </testcase>
+    <testcase
+            name="policyDetail"
+            time="21.993"
+            classname="CareInsurance.test.IndividualCareInsuranceTest">
+    </testcase>
+    <testcase
+            name="verifyGridData"
+            time="0.308"
+            classname="CareInsurance.test.IndividualCareInsuranceTest">
+    </testcase>
+    <testcase
+            name="calculatePremium"
+            time="21.910"
+            classname="CareInsurance.test.IndividualCareInsuranceTest">
+    </testcase>
+    <testcase
+            name="verifyProposerDetailInInsured"
+            time="0.887"
+            classname="CareInsurance.test.IndividualCareInsuranceTest">
+    </testcase>
+    <testcase
+            name="CImain"
+            time="17.483"
+            classname="CareInsurance.test.IndividualCareInsuranceTest">
+    </testcase>
+    <testcase
+            name="enterFirstPart"
+            time="1.307"
+            classname="CareInsurance.test.IndividualCareInsuranceTest">
+    </testcase>
+</testsuite>

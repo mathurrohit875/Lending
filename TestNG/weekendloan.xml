@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Long Term Lending Suite" parallel="tests">
+    <listeners>
+        <listener class-name="TestNGListenerPackage.ListenersTest">
+
+        </listener>
+    </listeners>
+
+    <test name="Weekend loan apply by user">
+        <classes>
+            <class name="WeekendLoanPackage.WeekendLoanApplyPackage.WeekendLoanApply"/>
+            <!-- <class name="LongTermLoanPackage.LongTermLoanApplyPackage.LongTermLoanApply2"/>-->
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

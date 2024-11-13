@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Care Insurance Suite">
+    <listeners>
+        <listener class-name="TestNGListenerPackage.ExtentReportListenerUAT"/>
+    </listeners>
+    <test name="Login and Mobile Otp Test" parallel="classes" thread-count="4">
+        <classes>
+            <class name="CareInsurance.test.LoginTest"/>
+            <class name="CareInsurance.test.MobileOtpTest"/>
+            <class name="CareInsurance.test.FormValidationTest"/>
+            <class name="CareInsurance.test.CalculatePremiumErrorMessageTest"/>
+        </classes>
+    </test>
+    <test name="Individual Care Insurance Test" parallel="classes" thread-count="2">
+        <classes>
+            <class name="CareInsurance.test.IndividualCareInsuranceTest"/>
+           <!-- <class name="CareInsurance.test.IndividualDiffPresentCommunicationAddressTest"/>-->
+        </classes>
+    </test>
+
+    <test name="Family floater Test" parallel="classes" thread-count="2">
+        <classes>
+            <class name="CareInsurance.test.FamilyFloaterTest"/>
+            <class name="CareInsurance.test.FamilyFloaterDiffPerCommAddTest"/>
+        </classes>
+    </test>
+    <test name="Edit Care Insurance Test" parallel="classes" thread-count="2">
+        <classes>
+            <class name="CareInsurance.test.CIEditTest"/>
+            <class name="CareInsurance.test.EditIndividualToFamilyFloaterTest"/>
+        </classes>
+    </test>
+
+</suite>

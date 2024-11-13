@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Long Term Lending Suite]" guice-stage="DEVELOPMENT">
+    <listeners>
+        <listener class-name="TestNGListenerPackage.ExtentReportListenerMTEST"/>
+    </listeners>
+    <test thread-count="5" name="Long term apply by user(failed)">
+        <classes>
+            <class name="LongTermLoanPackage.Test.longtermloanapply">
+                <methods>
+                    <include name="verifyCollectLoanDetail"/>
+                    <include name="verifyEmiDetai"/>
+                    <include name="initiate"/>
+                    <include name="loginUser"/>
+                    <include name="setup"/>
+                    <include name="comparison"/>
+                    <include name="verifyLoanEMIDetail"/>
+                    <include name="submitLoan"/>
+                    <include name="goToAddLoan"/>
+                </methods>
+            </class> <!-- LongTermLoanPackage.Test.longtermloanapply -->
+        </classes>
+    </test> <!-- Long term apply by user(failed) -->
+</suite> <!-- Failed suite [Long Term Lending Suite] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Care Insurance Suite" >
+    <listeners>
+        <listener class-name="TestNGListenerPackage.ExtentReportListenerUAT"/>
+    </listeners>
+    <test name="Edit functionality with change to individual to family">
+        <classes>
+            <class name="CareInsurance.test.EditIndividualToFamilyFloaterTest"/>
+        </classes>
+    </test>
+</suite>

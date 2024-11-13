@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Mobile Otp"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="17.355">
+    <properties></properties>
+
+
+    <testcase
+            name="verifySuccessLogin"
+            time="0.035"
+            classname="CareInsurance.test.MobileOtpTest">
+    </testcase>
+    <testcase
+            name="CImain"
+            time="17.320"
+            classname="CareInsurance.test.MobileOtpTest">
+    </testcase>
+</testsuite>

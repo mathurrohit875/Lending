@@ -1,0 +1,73 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Text color */
+    background-color: #f8f9fa; /* Background color */
+}
+
+/* Header */
+header {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 15px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/* Main content area */
+.report-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff; /* Background color for report area */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #dee2e6; /* Border color */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Header background color in tables */
+    color: #fff; /* Header text color in tables */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row color */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Button hover color */
+}

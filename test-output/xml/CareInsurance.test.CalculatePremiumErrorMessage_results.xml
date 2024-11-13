@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Gender Mismatch Error message"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.633">
+    <properties></properties>
+
+
+    <testcase
+            name="calculatePremiumError"
+            time="5.633"
+            classname="CareInsurance.test.CalculatePremiumErrorMessageTest">
+    </testcase>
+</testsuite>

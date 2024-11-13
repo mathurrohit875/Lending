@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Long Term Lending Suite">
+    <listeners>
+        <listener class-name="TestNGListenerPackage.ExtentReportListenerMTEST">
+        </listener>
+    </listeners>
+    <test name="Long term apply by user">
+        <classes>
+            <class name="LongTermLoanPackage.Test.longtermloanapply"/>
+            <!-- <class name="LongTermLoanPackage.LongTermLoanApplyPackage.LongTermLoanApply2"/>-->
+        </classes>
+    </test>
+    <!--<test name="Long term loan approve by admin">
+        <classes>
+            <class name="LongTermLoanPackage.LongTermEMIPayPackage.LongTermLoanAdmin"/>
+            &lt;!&ndash; <class name="LongTermLoanPackage.LongTermLoanApplyPackage.LongTermLoanApply2"/>&ndash;&gt;
+        </classes>
+    </test> &lt;!&ndash; Test &ndash;&gt;-->
+</suite> <!-- Suite -->

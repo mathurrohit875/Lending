@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Family floater with random number of members with different permanent and comm address"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="102.051">
+    <properties></properties>
+
+
+    <testcase
+            name="CImain"
+            time="16.556"
+            classname="CareInsurance.test.FamilyFloaterDiffPerCommAddTest">
+    </testcase>
+    <testcase
+            name="familyfloaterInsurance"
+            time="85.495"
+            classname="CareInsurance.test.FamilyFloaterDiffPerCommAddTest">
+    </testcase>
+</testsuite>
