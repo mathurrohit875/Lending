@@ -55,6 +55,7 @@ public class CalculatePremiumErrorMessageTest extends BaseClassUAT {
     passwordAdmin = getProperty("passwordAdmin");
     cipom.enterCredentials(usernameAdmin, passwordAdmin, "sddds");
     cipom.enterOTP("222111");
+    System.out.println("hakuna matata for git push");
   }
 
  
